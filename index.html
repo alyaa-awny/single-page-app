@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Up Constrain</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/upconstruction.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand p-2 p-lg-3" href="#">UpConstruction<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active p-2 p-lg-3" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Blog</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle p-2 p-lg-3" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu bg-light ">
+              <li><a class="dropdown-item " href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- start landing -->
+  <!-- <div class="slid">
+      <div class="landing d-flex justify-content-center align-items-center">
+        <div class="text-center text-light">
+          <h1 class="border border-warning border-bottom-2">
+            Welcome to <br />
+            UpConstruction
+          </h1>
+          <p class="fs-8">
+            Lorem ipsum dolor sit sed do eiusmod tempor <br />
+            psum dolor sit sed do eiusmod dolor sit tempor <br />psum dolor sit
+            sed
+          </p>
+          <a class="btn btn primary rounded-pill main-btn" href="#"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </div> -->
+  <!-- start hero section -->
+  <!-- <section
+      id="#home"
+      class="bg-cover"
+      style="
+        background-image: url(./assets/img/hero-carousel/hero-carousel-1.jpg);
+      "
+    >
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="border border-warning border-bottom-2">
+                Welcome to <br />
+                UpConstruction
+              </h1>
+              <p class="fs-8">
+                Lorem ipsum dolor sit sed do eiusmod tempor <br />
+                psum dolor sit sed do eiusmod dolor sit tempor <br />psum dolor
+                sit sed
+              </p>
+              <a class="btn btn primary rounded-pill main-btn" href="#"
+                >Get Started</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <!-- form -->
+
+
+
+
+
+
+
+
+
+
+  <!-- end landing -->
+  <section id="#home" class="bg-cover">
+    <div class="overlay">
+      <div id="carouselExampleInterval" class="carousel slide bg-image" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-dark" data-bs-interval="1000">
+            <img src="./assets/img/hero-carousel/hero-carousel-1.jpg" class="d-flex w-100 image-" alt="..." />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./assets/img/hero-carousel/hero-carousel-2.jpg" class="d-flex w-100" alt="..." />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./assets/img/hero-carousel/hero-carousel-3.jpg" class="d-flex w-100" alt="..." />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./assets/img/hero-carousel/hero-carousel-4.jpg" class="d-flex w-100" alt="..." />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./assets/img/hero-carousel/hero-carousel-5.jpg" class="d-flex w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--############################# form ##############################  -->
+  <section id="get-started" class="get-started section-bg bg-body-secondary">
+    <div class="container">
+
+      <div class="row justify-content-between gy-4">
+
+        <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+          <div class="content">
+            <h3>Minus hic non reiciendis ea possimus at quia.</h3>
+            <div class="divider-line"></div>
+            <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis
+              ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus
+              dicta.
+            <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt
+              porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-5" data-aos="fade">
+          <form action="forms/quote.php" method="post" class="form-control mb-3 mt-3">
+            <h3>Get a quote</h3>
+            <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero
+              park flows.</p>
+            <div class="row gy-3">
+
+              <div class="col-md-12">
+                <input type="text" name="name" class="form-control" placeholder="Name" required>
+              </div>
+
+              <div class="col-md-12 ">
+                <input type="email" class="form-control" name="email" placeholder="Email" required>
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="phone" placeholder="Phone" required>
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+
+                <button type="submit" class="btn btn-warning">Get a quote</button>
+              </div>
+
+            </div>
+          </form>
+        </div><!-- End Quote Form -->
+
+      </div>
+
+    </div>
+  </section><!-- End Get Started Section -->
+  <!-- Constructions start -->
+  <section id="">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 section-intro text-center">
+          <h1>
+            Constructions
+          </h1>
+          <div class="divider"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            eius ut quo <br />
+            commodi iusto, corporis sequi laboriosam cupiditate earum animi!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="constructions">
+            <div class="constructions-img">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/img/constructions-1.jpg" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title">Card title</h3>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is
+                        a little bit longer.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="constructions">
+            <div class="constructions-img">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/img/constructions-2.jpg" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title">Card title</h3>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is
+                        a little bit longer.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="constructions">
+            <div class="constructions-img">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/img/constructions-3.jpg" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title">Card title</h3>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consect omnis eum.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="constructions">
+            <div class="constructions-img">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./assets/img/constructions-4.jpg" class="img-fluid rounded-start height m-2" alt="..." />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title">Lorem ipsum.</h3>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- constructions -->
+
+  <!-- services -->
+  <section id="services">
+    <div class="container-fluid bg-body-secondary p-2">
+      <div class="row">
+        <div class="row">
+          <div class="col-12 section-service text-center  pt-2 mt-2">
+            <h1 class="p-2">
+              Services
+            </h1>
+            <div class="divider"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda eius ut quo <br />
+              commodi iusto, corporis sequi laboriosam cupiditate earum animi!
+            </p>
+          </div>
+        </div>
+        <div class="container ">
+          <div class="container ">
+            <div class="row">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col ">
+                  <div class="card h-100 border border-white point">
+                    <div class="icon">
+                      <i
+                        class="fa-solid fa-gear fa-3x d-flex me-auto p-3 border rounded-circle border-0  mt-3 ms-3 bg-secondary-subtle "></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Nested Ment</h3>
+                      <div class="divider"></div>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is
+                        a little bit longer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-white point">
+                    <div class="icon">
+                      <i
+                        class="fa-solid fa-van-shuttle fa-3x d-flex me-auto p-3 border rounded-circle border-0  mt-3 ms-3 bg-secondary-subtle change "></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Lorem dolor.</h3>
+                      <div class="divider"></div>
+                      <p class="card-text">Lorem ipsum adipisicing elit. Sapiente vitae nam dolorem corporis recusandae
+                        totam deserunt accusamus debitis ducimus quis.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100 border border-white point">
+                    <div class="icon">
+                      <i
+                        class="fa-solid fa-gauge-high fa-3x d-flex me-auto p-3 border rounded-circle border-0  mt-3 ms-3 bg-secondary-subtle "></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Loremdolor.</h3>
+                      <div class="point">
+                        <div class="divider icon"></div>
+                      </div>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is
+                        a little bit longer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col ">
+                  <div class="card h-100 border border-white point">
+                    <div class="icon"><i
+                        class="fa-solid fa-scissors fa-3x d-flex me-auto p-3 border rounded-circle border-0  mt-3 ms-3 bg-secondary-subtle "></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Nested Ment</h3>
+                      <div class="divider"></div>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is
+                        a little bit longer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border border-white point">
+                    <div class="icon">
+                      <i
+                        class="fa-solid fa-screwdriver-wrench fa-3x d-flex me-auto p-3 border rounded-circle border-0  mt-3 ms-3 bg-secondary-subtle "></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Lorem dolor.</h3>
+                      <div class="divider"></div>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                        provident tenetur culpa veniam maiores saepe!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100 border border-white point">
+
+                    <div class="icon ">
+                      <i
+                        class="fa-solid fa-hammer fa-3x d-flex me-auto p-3 border rounded-circle border-0  mt-3 ms-3 bg-secondary-subtle "></i>
+                    </div>
+
+                    <div class="card-body">
+                      <h3 class="card-title">Lorem ipsum.</h3>
+                      <div class="divider"></div>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content. This content is
+                        a little bit longer.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- services -->
+
+  <!-- ################# After services section################# -->
+
+
+  <section id="alt-services" class="alt-services">
+    <div class="container m-5 p-2" data-aos="fade-up">
+
+      <div class="row justify-content-around gy-4">
+        <div class="col-lg-6 img-bg mt-4" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in"
+          data-aos-delay="100"></div>
+
+        <div class="col-lg-5 d-flex flex-column justify-content-center">
+          <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+          <div class="divider-line"></div>
+          <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus
+            laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+
+          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="ps-3 pe-3 "><i class="fa-solid fa-address-card fa-2x icon-font"></i></div>
+            <div>
+              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident</p>
+            </div>
+          </div>
+
+          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+            <i class="fa-solid fa-bullhorn fa-2x pe-3 ps-3 icon-font"></i>
+            <div>
+              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                deleniti atque</p>
+            </div>
+          </div>
+
+          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+            <i class="fa-regular fa-message fa-2x ps-3 pe-3 icon-font"></i>
+            <div>
+              <h4><a href="" class="stretched-link">Dine Pad</a></h4>
+              <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut
+                eligendi omnis</p>
+            </div>
+          </div>
+
+          <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+            <i class="fa-solid fa-comments fa-2x ps-3 pe-3 icon-font"></i>
+            <div>
+              <h4><a href="" class="stretched-link">Tride clov</a></h4>
+              <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet.
+                Et eligendi</p>
+            </div>
+          </div><!-- End Icon Box -->
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- #################  End After services section################# -->
+  <!-- ################# Start Features################# -->
+
+  <section id="features" class="features section-bg bg-body-secondary ">
+    <div class="container mt-4 mb-5" data-aos="fade-up">
+
+      <ul class="nav nav-tabs row  g-2 d-flex">
+
+        <li class="nav-item col-3">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <h4>Modisit</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+            <h4>Praesenti</h4>
+          </a><!-- End tab nav item -->
+
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+            <h4>Explica</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item col-3">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+            <h4>Nostrum</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+      </ul>
+
+      <div class="tab-content">
+
+        <div class="tab-pane active show" id="tab-1">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
+              data-aos="fade-up" data-aos-delay="100">
+              <h3>Voluptatem dignissimos provident</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                  pariatur.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/features-1.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-2">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Neque exercitationem debitis</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum
+                  neque dolor voluptate nisi sed.</li>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                  pariatur.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/img/features-2.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-3">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Voluptatibus commodi accusamu</h3>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check2-all"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum
+                  neque dolor voluptate nisi sed.</li>
+              </ul>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.
+              </p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/img/features-3.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+        <div class="tab-pane" id="tab-4">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <h3>Omnis fugiat ea explicabo sunt</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                  pariatur.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 text-center">
+              <img src="assets/img/features-4.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div><!-- End tab content item -->
+
+      </div>
+
+    </div>
+  </section><!-- End Features Section -->
+  <!-- ################# Features################# -->
+
+  <!-- ======= Our Projects Section ======= -->
+  <section id="projects" class="projects">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h2>Our Projects</h2>
+        <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus
+          fugit aut qui distinctio</p>
+      </div>
+
+      <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+        data-portfolio-sort="original-order">
+
+        <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-remodeling">Remodeling</li>
+          <li data-filter=".filter-construction">Construction</li>
+          <li data-filter=".filter-repairs">Repairs</li>
+          <li data-filter=".filter-design">Design</li>
+        </ul><!-- End Projects Filters -->
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Remodeling 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1"
+                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Construction 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/construction-1.jpg" title="Construction 1"
+                  data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Repairs 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Design 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Remodeling 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/remodeling-2.jpg" title="Remodeling 2"
+                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Construction 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/construction-2.jpg" title="Construction 2"
+                  data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Repairs 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Design 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Remodeling 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/remodeling-3.jpg" title="Remodeling 3"
+                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Construction 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/construction-3.jpg" title="Construction 3"
+                  data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Repairs 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+            <div class="portfolio-content h-100">
+              <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Design 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="project-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Projects Item -->
+
+        </div><!-- End Projects Container -->
+
+      </div>
+
+    </div>
+  </section><!-- End Our Projects Section -->
+  <!-- ###############Blog section ####################### -->
+  <div class="blog pt-5 pb-5 bg-body-secondary">
+    <div class="container">
+      <div class="main-title text-center mt-5 mb-5 position-relative">
+        <h2>Read Our Blog</h2>
+        <div class="divider-team"></div>
+        <p class="text-uppercase text-black-50 pt-2"> New Blog </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./assets/img/blog/blog-2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <span class="text-black-50"> 10 Jan 2023</span>
+              <div class="card-title">  Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./assets/img/blog/blog-4.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <span class="text-black-50"> 10 Jan 2023</span>
+              <div class="card-title">  Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img src="./assets/img/blog/blog-3.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <span class="text-black-50"> 10 Jan 2023</span>
+              <div class="card-title">  Lorem ipsum dolor sit amet.</div>
+            </div>
+          </div>
+        </div>
+      <div class="d-flex justify-content-center mt-5 mb-5 ">
+        <a href="#" class="btn btn-warning  main-btn text-uppercase"> More</a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ###############Blog section ####################### -->
+
+  <!-- ############### meet the team ######################-->
+
+
+  <div class="team text-center pb-5 pt-5 ">
+    <div class="container pb-5 pt-5">
+      <h2 class="fw-bold"> Our Team</h2>
+      <div class="divider-team "></div>
+      <p class="text-black m-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti necessitatibus minima
+        <br>nihil sed, inventore distinctio ea officiis eos iure. Atque.</p>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="box bg-white">
+            <img class="img-fluid" src="./assets/img/team/team-1.jpg" alt="">
+            <h4 class="p-2 text-light">Winston S. Churchill </h4>
+            <blockquote class="text-block-50 p-3">
+              Success is not final; failure is not fatal: It is the courage to continue that counts.
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box bg-white">
+            <img class="img-fluid" src="./assets/img/team/team-4.jpg" alt="">
+            <h4 class="p-2 text-light">Jim Rohn </h4>
+            <blockquote class="text-block-50 p-3">
+              Success is not final; failure is not fatal: It is the courage to continue that counts.
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box bg-white">
+            <img class="img-fluid" src="./assets/img/team/team-3.jpg" alt="">
+            <h4 class="p-2 text-light">Vernon Sanders Law </h4>
+            <blockquote class="text-block-50 p-3">
+              Success is not final; failure is not fatal: It is the courage to continue that counts.
+            </blockquote>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box bg-white">
+            <img class="img-fluid" src="./assets/img/team/team-2.jpg" alt="">
+            <h4 class="p-2 text-light">Mister Rogers </h4>
+            <blockquote class="text-block-50 p-3">
+              Success is not final; failure is not fatal: It is the courage to continue that counts.
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ############# meet the team ############-->
+  <!-- ###########footer############ -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- ###########footer############ -->
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/all.min.js"></script>
+</body>
+
+</html>
